@@ -19,15 +19,11 @@ int main(){
                 res=avrg;
                 indx=p;
             }
-
             cout<<endl<<"sum:"<<sum<<endl<<"avrg:"<<avrg<<endl;
             sum=0;
             avrg=0;
         }
     }
     cout<<endl<<"smallest average: " << res<<" for p: "<<indx<<endl;
-
-
-
 return 0;
 }
